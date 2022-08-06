@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+
+
+body {
+    margin-bottom: 500px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    background: #474747;
+    background-image:url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    background: rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+.navbar li{
+    padding-left: 20px;
+}
+.navbar li:hover {
+    font-size: 50px;
+    background: rgba(9, 9, 9, 0.25);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navbar li a {
+    font-style: inherit;
+    color: gray;
+    text-decoration: none;
+}
+@media (max-width: 500px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+    }
+}
+.info{
+    margin-bottom: 20px;
+    
+    margin-left: 40px
+}
+
+.info p {
+    
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.cardh {
+    background-color: rgba(96, 96, 96, 0.5);
+    border: 10px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+}
+.cardh:hover{
+    background: rgba(96, 96, 96, 0.1);
+    font-size: 19px;
+    transition: 1s;
+    cursor: pointer;
+}
+.cardw {
+    background-color: rgba(96, 96, 96, 0.5);
+    border: 10px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    
+}
+.cardw:hover{
+    background: rgba(96, 96, 96, 0.1);
+    font-size: 19px;
+    transition: 1s;
+    cursor: pointer;
+    width: 100%;
+}
+.container  {
+    padding-top: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    size: 200px;
+}
+
+.avatar:hover {
+    size: 250px;
+    transition: 1s;
+}
+
+.btn {
+    color: gray;
+    padding-left: 5px;
+    font-style: inherit;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    transition: 1s;
+}
+
+.btn:active{
+    color: black;
+}
+
+.btn:visited{
+    color: indigo;
+}
+
+.send{
+    border: none;
+    color: azure;
+    color: #474747;
+    font-style: inherit;
+    border-radius: 10px;
+}
+
+.send:hover{
+    font-size: 20px;
+    transition: 1s;
+    color: black;
+}
+
+.table td:hover{
+    background: rgba(182, 182, 182, 0.25);
+    cursor: pointer;
+    font-size: 23px;
+    transition: 1s;
+}
+
+.list {
+    padding: 10px;
+    list-style: none;
+}
+.list li{
+    padding: 3px;
+}
+.list li:hover {
+    font-size: 23px;
+}
+
+.form h2  {
+    text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+}
+
+.form-row  {
+margin-bottom: 10px;
+}
+
+.form-row, .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50%-20px);
+}
+
+.form-row, .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(252, 252, 252);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
